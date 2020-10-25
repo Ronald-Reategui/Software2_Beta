@@ -1,0 +1,115 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.8; /* Firefox */
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+button:focus {outline:0;}
+
+body{
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    display: grid;
+    grid-template-columns: 40px 220px 40px auto 40px 150px 40px;
+    background-color: rgba(242, 172, 41, 0.72);
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#Space1{
+    
+    width: 40px;
+}
+
+#Logo{
+    width: 220px;
+    height: 130px;
+}
+
+#LogoHead{
+    width: 180px;
+    height: 110px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+
+}
+
+
+
+#Start{
+    width: 100%;
+    height: 390px;
+    background-color: rgba(242, 172, 41, 0.72);
+}
+#Content{
+    width: 700px;
+    height: 100%;
+}
+
+#Texto{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+    width: 629px;
+}
+
+
+
+
+#Mercury{
+    width: 550px;
+    position: relative;
+    left: 650px;
+    top: -360px;
+}
+
+
+
+
+
+
+#Textito{
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+    top:-30px;
+}
+
+#Textito2{
+    
+    position: relative;
+    left: 70px;
+
+}
+
+footer{
+    width: 100%;
+    height: 99px;
+    display: grid;
+    grid-template-columns: auto 0.4px auto;
+}
+
+.box{
+    background-color: #2b65d9;
+}
+
+.box a{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    left: 35%;
+    position: relative;
+    top: 15%;
+}

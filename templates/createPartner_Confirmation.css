@@ -1,0 +1,72 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 0.2; /* Firefox */
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+button:focus {outline:0;}
+
+body{
+    background-color: rgba(54, 112, 171, 0.72);
+}
+
+.contenedor{
+    background-color: white;
+    border-radius: 25px;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 350px;
+    width: 600px;
+}
+
+#ImgCorreo{
+    position: relative;
+    width: 75%;
+    height: 100%;
+    
+}
+
+#Whole{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 30px;
+    left: 190px;
+}
+
+span{
+    font-family: 'Abril Fatface', cursive;
+}
+
+#T1{
+    position: relative;
+    left: 35px;
+    font-size: 40px;
+}
+
+#T2{
+    position: relative;
+    font-size: 85%;
+    left: -25px;
+}
+#T3{
+    position: relative;
+    font-size: 85%;
+    left: 25px;
+}
+
+#func{
+    width: 50%;
+    position: relative;
+    left: 265px;
+    top: -85px;
+    
+}

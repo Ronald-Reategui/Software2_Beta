@@ -1,0 +1,83 @@
+<html>
+  
+  <head>
+    <title>Encuentra tu Funko Favorito</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="MapLocation.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/tt-norms-medium" type="text/css"/>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">  </head>
+  <header>
+    <div id="Space1" class="Espacios"></div>
+    <div id="Logo">
+        <a>
+            <img id="LogoHead" src="ImagFunkos/loguito.png">
+        </a>
+    </div>
+    <div id="Space2" class="Espacios"></div>
+    <nav id="barra">
+        <ul id="CintaOpciones">
+            
+            <li>
+                <a>  Inicio </a> 
+            </li>
+            
+            <li>
+                <a> Catalogo</a>
+            </li>
+            <li>
+                <a> Bolsa</a>
+            </li>
+            <li>
+                <a>Busqueda</a>
+            </li>
+            <div class="linestrong"></div>
+        </ul>
+    </nav>
+  </header>
+  <body>
+
+    <div id="Contenedor">
+        <div style=" grid-row: 1;grid-column: 1;" class="Spaces"></div>
+        <div style=" grid-row: 1;grid-column: 2;" class="Spaces"></div>
+        <div style=" grid-row: 1;grid-column: 3;" class="Spaces"></div>
+        <div style=" grid-row: 2;grid-column: 1;" class="Spaces"></div>
+        <div style=" grid-row: 2;grid-column: 3;" class="Spaces"></div>
+        <div style=" grid-row: 3;grid-column: 1;" class="Spaces"></div>
+        <div style=" grid-row: 3;grid-column: 2;" class="Spaces"></div>
+        <div style=" grid-row: 3;grid-column: 3;" class="Spaces"></div>
+        <div id="ContenedorInside">
+            <div id="Parametros">
+                <div style="grid-row: 2;" >
+                    <label>Precio</label>
+                    <input type="range">
+                </div>
+                <div style="grid-row: 3;">
+                    <label>Lugar de Preferencia</label>
+                    <select>
+                        <option disabled selected>Selecciona una opción</option>
+                        <option value="item 1">Item 1</option>
+                        <option value="item 2">Item 2</option>
+                        <option value="item 3">Item 3</option>
+                    </select>
+                </div>
+                <div style="grid-row:4;">
+                    <img style="height: 90%;margin-left: 30%;margin-top: 5%;" src="ImagFunkos/Sully.PNG">
+                </div>
+            </div>
+            <div id="Mapa">
+                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 38vw;grid-row:2;grid-column:2;">
+                    <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                      style="border:0;width: 100%;height: 88%;" allowfullscreen></iframe>
+                  </div>
+            </div>
+
+        </div>
+
+    </div>
+   
+  </body>
+
+</html>
+
